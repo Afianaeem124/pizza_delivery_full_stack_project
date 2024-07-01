@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body, html {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  overflow-x: hidden !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./images/image.avif'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.navbar {
+  background-color: #121313; /* Dark background color */
+  padding: 1rem 2rem;
+}
+
+.navbar-brand {
+  font-family: 'Caveat', cursive !important; /* Unique font family */
+  color: black !important; 
+  font-size: 27px !important;
+  padding-left: 20px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  color: black;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color:black !important;
+  font-family: 'Caveat', cursive !important; /* Unique font family */
+  font-size: 17px;
+  margin-left: 1rem;
+}
+
+.main-nav .navbar {
+  background: linear-gradient(180deg, rgb(231, 19, 19) 0%, rgb(255, 2, 2) 100%) !important; 
+  padding: 1rem 2rem;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color:black!important;
+}
+
+.dropdown-menu {
+  background-color: orange; 
+  border: none;
+}
+
+.dropdown-menu .dropdown-item {
+  color: rgb(8, 8, 8) !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: rgb(255, 123, 0); 
+}
+
+.dropdown-toggle {
+  color: black!important;
+  font-family: 'Caveat', cursive !important; /* Unique font family */
+  font-size: 17px;
+}
+
+.nav-link {
+  color:white!important;
+}
+
+h1 {
+  font-size: 20px !important;
+}
+
+.flex-container {
+  display: flex !important;
+}
+.btn {
+  background-color: red !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+
+select {
+  box-shadow: none !important;
+  border-color: black !important;
+}
+
+.fa-plus {
+  color: green;
+  margin: 5px;
+}
+
+.fa-minus {
+  color: red !important;
+  margin: 5px;
+}
+
+.fa-trash {
+  color: red;
+}
+
+input {
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+
+.adminfunctions {
+  padding: 10px;
+  background-color: rgb(1, 1, 77);
+}
+
+.adminfunctions li {
+  list-style-type: none !important;
+  display: inline !important;
+  color: white !important;
+}
+
+.adminfunctions li a {
+  color: white !important;
+  padding: 20px;
+}
+
+td, th, tr {
+  text-align: left;
+}
+
+.login {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 90vh;
+}
+
+.register {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 90vh;
+}
